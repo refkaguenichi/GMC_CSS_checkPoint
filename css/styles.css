@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+main {
+    background-color: #fff;
+}
+
+h1 {
+    display: inline;
+    color: white;
+    font-style: italic;
+    float: left;
+}
+
+h2 {
+    background-color: darkslateblue;
+    color: floralwhite;
+    text-align: center;
+}
+
+h3 {
+    background-color: lightskyblue;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+th {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+form {
+    background-color: #ccc;
+    border: 5px solid #ccc;
+    display: center;
+}
+
+footer {
+    background-color: #555;
+    color: lightyellow;
+    text-align: center;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: right;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+    display: block;
+}
+
+.profile {
+    height: 120px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.profile p {
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.skills li {
+    display: inline;
+    background-color: lightskyblue;
+    border: 5px solid lightskyblue;
+    border-radius: 0.5em;
+}
+
+.interests {
+    height: 400px;
+}
+
+.interests iframe {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+#work {
+    height: 200px;
+}
+
+#work img {
+    float: right;
+    margin-right: 60%;
+    margin-top: 20px;
+}
+
+#resume {
+    height: 200px;
+}
+
+#resume a:hover {
+    color: red;
+}
+
+#contact {
+    height: 220px;
+}
+
+#button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: royalblue;
+    color: #fff;
+}
+
+#button:hover {
+    background-color: red
+}
