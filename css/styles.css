@@ -1,9 +1,11 @@
+/* Initialisation */
 * {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
 }
-
+/* ---- */
+/* Body */
 body {
     background-color: lightblue;
     width: 80%;
@@ -11,69 +13,76 @@ body {
     margin-right: 10%;
     display: inline-block;
 }
-
+/* ---- */
+/* Main */
 main {
     background-color: #fff;
 }
-
+/* all h1 present */
 h1 {
     display: inline;
     color: white;
     font-style: italic;
     float: left;
 }
-
+/* ----- */
+/* All h2 */
 h2 {
     background-color: darkslateblue;
     color: floralwhite;
     text-align: center;
 }
-
+/* -------- */
+/* All h3 */
 h3 {
     background-color: lightskyblue;
 }
-
+/* ------ */
+/* Table */
 table {
     border-collapse: separate;
-    border-spacing: 0 15px;
+    border-spacing: 0 1.2em;
 }
-
+/* Table headings */
 th {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
     text-align: justify;
 }
-
+/* ------ */
+/* Form */
 form {
     background-color: #ccc;
     border: 5px solid #ccc;
     display: center;
 }
-
+/* ------- */
+/* Footer*/
 footer {
     background-color: #555;
     color: lightyellow;
     text-align: center;
-    height: 20px;
-    margin-bottom: 10px;
+    height: 20%;
+    margin: 1% 0%;
 }
 
 footer p {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 5%;
 }
 
 footer a {
     color: #fff;
 }
-
+/* ------- */
+/* Navbar */
 .navbar {
     display: inline-block;
     width: 100%;
     background-color: #555;
     overflow: auto;
 }
-
+/* Navbar links */
 .navbar a {
     float: right;
     padding: 10px;
@@ -86,71 +95,69 @@ footer a {
     background-color: #ccc;
     display: block;
 }
-
+/* Profile */
 .profile {
-    height: 120px;
+    height: 6rem;
 }
-
+/* Profile images */
 .profile img {
-    width: 100px;
-    height: 100px;
-
+    width: 5rem;
+    height: 5rem;
 }
-
+/* Profile images */
 .profile p {
     text-align: justify;
-    width: 500px;
-    height: 100px;
+    width: 80%;
+    height: 20%;
     display: inline-block;
-    margin-top: 1px;
 }
-
+/* skills */
 .skills li {
     display: inline;
     background-color: lightskyblue;
     border: 5px solid lightskyblue;
     border-radius: 0.5em;
 }
-
+/* Intersts */
 .interests {
-    height: 400px;
+    height: 25rem;
 }
-
+/* Intersets iframe */
 .interests iframe {
     float: right;
-    margin-top: 10px;
+    margin-top: 1%;
     margin-right: 10%;
 }
-
+/* work */
 #work {
-    height: 200px;
+    height: 15rem;
 }
-
+/* work images */
 #work img {
     float: right;
     margin-right: 60%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
-
+/* Resume */
 #resume {
-    height: 200px;
+    height: 15rem;
 }
-
+/* Resume link hover */
 #resume a:hover {
     color: red;
 }
-
+/* Contact */
 #contact {
-    height: 220px;
+    height: 12rem;
 }
-
+/* Button */
 #button {
-    margin-top: 10px;
-    padding: 5px;
+    margin-top: 0.8em;
+    padding: 0.5em;
     background-color: royalblue;
     color: #fff;
 }
-
+/* Button hover */
 #button:hover {
     background-color: red
 }
